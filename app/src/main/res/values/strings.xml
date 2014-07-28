@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HSMainServer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="txt_main_activity_explanation">This activity is used
+    to active receiving boot completed event at boot time.</string>
+    <string name="txt_main_activity_title">HSMainForm</string>
+    <string name="log_message_tag">HsLogTag</string>
+    <string name="notification_tiker_text">HSMainService is run</string>
+    <string name="notification_content_title">Notification</string>
+    <string name="notification_content_text">HSMainservice is running and can service to related clients</string>
+
+</resources>
