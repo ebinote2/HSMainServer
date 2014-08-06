@@ -16,7 +16,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".HSActivedeliveringBootCompleted"
+            android:name=".HSActiveDeliveringBootCompleted"
             android:label="@string/txt_main_activity_title" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

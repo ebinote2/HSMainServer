@@ -11,11 +11,13 @@ import android.os.IBinder;
 import android.util.Log;
 import android.widget.Toast;
 
+import org.simpleframework.transport.Server;
+
 public class HSMainService extends Service {
 
     //region constants
     public static final int MY_NOTIFICATION_ID = 1;
-    //public static final int SERVERPORT = 8080;
+    public static final int SERVERPORT = 8080;
     //endregion
     //************************
     //region instance variables
@@ -24,6 +26,10 @@ public class HSMainService extends Service {
             .parse("android.resource://com.ebcompany.hs4/"
                     + R.raw.alarm_rooster);
     private long[] mVibratePattern = { 0, 200, 200, 300 };
+
+    private IS2Container is2Container;
+    private Server server;
+    //private HttpServer server;
     //endregion
     //************************
     //region constructors
@@ -51,14 +57,10 @@ public class HSMainService extends Service {
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        //handleCommand(intent);
-        // We want this service to continue running until it is explicitly
-        // stopped, so return sticky.
         Log.i(TAG, "onStartCommand");
-        //Intent in = new Intent(getApplicationContext(), TestActivity.class);
-        //in.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        //startActivity(in);
-        //Toast.makeText(getApplicationContext(), "onStartCommand", Toast.LENGTH_LONG).show();
+
+
+
         return START_STICKY;
     }
 

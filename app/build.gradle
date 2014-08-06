@@ -20,5 +20,17 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    //compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(dir: 'libs', include: '*.jar')
+    //compile files('libs/http-2.2.1.jar')
+    //    compile files('libs/jetty.jar')
+    //    compile files('libs/org.eclipse.jetty.continuation_9.2.2.v20140723.jar')
+    //    compile files('libs/org.eclipse.jetty.http_9.2.2.v20140723.jar')
+    //    compile files('libs/org.eclipse.jetty.io_9.2.2.v20140723.jar')
+    //    compile files('libs/org.eclipse.jetty.security_9.2.2.v20140723.jar')
+    //    compile files('libs/org.eclipse.jetty.server_9.2.2.v20140723.jar')
+    //    compile files('libs/org.eclipse.jetty.servlet_9.2.2.v20140723.jar')
+    //    compile files('libs/org.eclipse.jetty.util_9.2.2.v20140723.jar')
+    //    compile files('libs/org.eclipse.jetty.webapp_9.2.2.v20140723.jar')
+    //    compile files('libs/org.eclipse.jetty.xml_9.2.2.v20140723.jar')
 }

@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.os.Bundle;
 
 
-public class HSActivedeliveringBootCompleted extends Activity {
+public class HSActiveDeliveringBootCompleted extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
